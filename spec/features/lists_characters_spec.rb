@@ -17,7 +17,7 @@ feature "view index of characters" do
 
     television_show = TelevisionShow.find(show.id)
     a.television_show = television_show
-a.save
+    a.save
 
 
     visit '/characters'
