@@ -5,6 +5,10 @@ class TelevisionShowsController < ApplicationController
 
   def show
     @television_show = TelevisionShow.find(params[:id])
+    #instance variable for characters
+    @character = Character.new
+
+
   end
 
   def new
